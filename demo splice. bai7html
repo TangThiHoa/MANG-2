@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let thuan=[];
+    for(i=0;i<5;i++){
+        let a =+prompt("nhập phần tử thứ "+i);
+        thuan.push(a);
+    }
+    let v=+prompt("xóa đê") ;
+    let vitri=thuan.indexOf(v);
+    if (vitri==-1){
+        alert("khong co")
+    }else {
+        thuan.splice(vitri,1);
+        thuan.push (0)
+        console.log(thuan)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

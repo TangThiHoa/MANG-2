@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let thuan=[];
+    for(i=0;i<5;i++){
+        let a =+prompt("nhập phần tử thứ "+i);
+        thuan.push(a);
+    }
+    for ( let i=0;i<thuan.length;i++){
+        for(let j = J+1;j<thuan.length;j++);{
+            if (thuan[i]<thuan[j]){
+                let ccc = thuan [i];
+                thuan[i]=thuan[j];
+                thuan[j]=ccc;
+            }
+        }
+    }
+    document.write(thuan)
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
